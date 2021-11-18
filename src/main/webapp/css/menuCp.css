@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/.svg) no-repeat center ;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100%;
+  box-sizing: border-box;
+  
+}
+
+.parallax {
+  /* The image used */
+  background-image: url(../img/bg2.svg);
+
+  /* Full height */
+  height: 70vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pie {
+	background-color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

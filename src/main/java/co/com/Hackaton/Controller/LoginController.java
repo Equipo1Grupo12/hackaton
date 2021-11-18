@@ -22,15 +22,15 @@ public class LoginController {
 	@Autowired
 	private PersonaDao personaDao;
 	
-	@GetMapping("/")
+	@GetMapping
 	public String mostrarLogin(){
-		return "login.html";
+		return "login";
 	}
 	
 	@RequestMapping(value = "login", method = RequestMethod.GET)
 	public ModelAndView getLogin() {
 		ModelAndView modelo = new ModelAndView();
-		modelo.setViewName("login.html");
+		modelo.setViewName("login");
 		return modelo;
 	}
 	
@@ -38,7 +38,7 @@ public class LoginController {
 	public ModelAndView getMenu() {
 		String mensaje = "<h3>Error de usuario o contraseña</h3>";
 		ModelAndView modelo = new ModelAndView();
-		modelo.setViewName("menu.html");
+		modelo.setViewName("menu");
 		modelo.addObject(mensaje);
 		return modelo;
 	}
@@ -47,7 +47,7 @@ public class LoginController {
 	public ModelAndView getValidLogin(HttpServletRequest req, HttpServletResponse resp) {
 		ModelAndView modelo = new ModelAndView();
 		String usuario = req.getParameter("user");
-		String password = req.getParameter("password");
+		String password = req.getParameter("pass");
 		List<Persona> personas= personaDao.findAll();
 		
 		for(Persona auxPersona : personas) { 

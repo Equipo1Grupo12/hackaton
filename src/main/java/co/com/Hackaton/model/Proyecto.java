@@ -25,7 +25,7 @@ public class Proyecto {
 	@Column(name = "meta")
 	private int meta;
 	
-	@Column(name = "descripcion",length = 65535)
+	@Column(name = "descripcion",length = 50) //65535
 	private String descripcion;
 	
 	@Column(name="patrocinadores")
