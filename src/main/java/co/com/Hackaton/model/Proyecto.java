@@ -16,7 +16,7 @@ public class Proyecto {
 	@Column(name = "nombre",length = 50)
 	private String nombre;
 	
-	@Column(name = "tipo",length = 50)
+	@Column(name = "tipo",columnDefinition="TEXT")
 	private String tipo;
 	
 	@Column(name = "meta")

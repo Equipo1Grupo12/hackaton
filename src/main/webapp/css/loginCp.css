@@ -9,32 +9,34 @@ body {
 
 .login-box {
   width: 400px;
-  height: 550px;
-  top: 50%;
+  height: 470px;
+  top: 48%;
   left: 50%;
   background: transparent;
   position: absolute;
   transform: translate(-50%, -45%);
   box-sizing: border-box;
-  padding: 110px 60px;
+  padding: 50px 60px;
   border:  4px solid #a1c3df;
   border-radius: 5%;
+  margin-top: 60px;
 }
 
 .login-box .avatar {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   position: absolute;
   top: -60px;
-  left: calc(40% - 50px);
+  left: calc(50% - 50px);
 }
 
-.login-box h1 {
+.login-box h2 {
   margin: 0;
   padding: 0 0 20px;
   text-align: center;
-  font-size: 22px;
+  color: #5cbeb7;
+  font-size: 30px;
 }
 
 .login-box label {
@@ -93,20 +95,12 @@ margin-bottom: 20px;
 
 }
 
-.holi h1{
-  margin: 0;
-  padding: 0 0 20px;
-  text-align: center;
-  font-size: 300px;
-}
-
 .textos a {
 	color: #5cbeb7;
 	font-size: 20px;
 	align-content: center;
 }
 
-.textos h1 {
-	color: #5cbeb7;
-	font-size: 30px;
+.alert {
+	position: absolute
 }

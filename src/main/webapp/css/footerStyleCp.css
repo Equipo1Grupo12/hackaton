@@ -1,0 +1,44 @@
+/*.logo{
+    width: 25%;
+    height: 25%;
+}*/
+
+
+.text-uppercase{
+    font-weight: bold;
+    color: #136F63;
+}
+
+footer a{
+    color: #000000;
+    padding: auto;
+}
+
+.barra{
+    margin: 10;
+}
+
+.clearfix{
+    border-top: 1px solid #136F63;
+    padding: 0;
+}
+
+.col-md-3 a:hover{
+    color: #136F63;
+}
+
+.contenedor{
+    border-top: 2px solid #136F63;
+    padding: 2rem 2rem;
+    margin: 2rem 0;
+    background-color: #136F63;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+}
+.contenedor a{
+    color: #fff;
+    padding: 3rem;
+}
+
+
