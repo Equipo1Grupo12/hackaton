@@ -43,7 +43,7 @@
 			<br>
 			<h2 align="center" style="color:#136F63;" class="mb-5">Proyectos Destacados</h2>
 			<div class="row mx-3" >
-				<div class="col-12 col-sm-6 col-lg-4">
+				<div class="col-12 col-sm-6 col-lg-4 mt-3">
 					<div class="card">
 						<img src="img/p1.jpg" alt="Jane" class="card-img-top">
 						<div class="card-body">
@@ -56,7 +56,7 @@
 					</div>
 				</div>
 				
-				<div class="col-12 col-sm-6 col-lg-4">
+				<div class="col-12 col-sm-6 col-lg-4 mt-3">
 					<div class="card">
 						<img src="img/p2.jpg" alt="Mike" class="card-img-top">
 						<div class="card-body">
@@ -69,7 +69,7 @@
 					</div>
 				</div>
 				
-				<div class="col-12 col-sm-6 col-lg-4">
+				<div class="col-12 col-sm-6 col-lg-4 mt-3">
 				    <div class="card">
 						<img src="img/p3.jpg" alt="John" class="card-img-top">
 						<div class="card-body">
@@ -104,64 +104,92 @@
 			</section>
 			
 			<!-- Footer -->
-			<footer class="page-footer font-small blue">
-				<!-- Footer Links -->
-				<div class="container-fluid text-center">
-					<!-- Grid row -->
-					<div class="row">
-						<hr class="clearfix w-100 d-md-none pb-3">
-						<!-- Grid column -->
-						<div class="col-md-4 mb-md-0 mb-3">
-							<!-- Links -->
-							<h5 class="text-uppercase">Cumpliendo Sueños</h5>
-							<p align="left">Busca conectar emprendedores con socios e inversionistas para que se puedan poner en marcha toda clase de ideas de negocios y hacer realidad los sueños de muchas personas.
-							</p>
-						</div>
-						<!-- Grid column -->
-						<!-- Grid column -->
-						<div class="col-md-5 mb-md-0 mb-3">
-							<!-- Links -->
-							<h5 class="text-uppercase" align="center">Conocenos</h5>
-							<ul class="form-inline">
-								<a href="#!">Preguntas frecuentes</a>
-								<a>-</a>
-								<a href="#!">Contáctanos</a>
-							</ul>
-						</div>
-						<!-- Grid column -->
-						<div class="col-md-3 mb-md-0 mb-3">
-							<!-- Links -->
-							<h5 class="text-uppercase">Síguenos por nuestras redes sociales</h5>
-							<a href="https://www.facebook.com/CumpliendoSue%C3%B1os-110258968145255/about/?ref=page_internal"><i class="fa fa-facebook-square"></i></a>
-							<a href="#"><i class="fa fa-instagram"></i></a>
-							<a href="https://www.youtube.com/channel/UCrxKZJpLjvCDGGn7kfKzAFg"><i class="fa fa-youtube"></i></a>
-							<a href="https://twitter.com/Cumpliendosue21"><i class="fa fa-twitter"></i></a>
-						</div>
+			<footer class="text-center text-lg-start bg-success text-muted text-dark bg-opacity-25">
+			  	
+			  <!-- Section: Links  -->
+			  <section class="pt-1">
+			    <div class="container text-center text-md-start mt-5">
+			      <!-- Grid row -->
+			      <div class="row mt-3">
+			        <!-- Grid column -->
+			        <div class="col-md-4 mb-md-0 mb-3">
+						<!-- Links -->
+						<h5 class="text-uppercase">Cumpliendo Sueños</h5>
+						<p align="left">Busca conectar emprendedores con socios e inversionistas para que se puedan poner en marcha toda clase de ideas de negocios y hacer realidad los sueños de muchas personas.
+						</p>
 					</div>
-					<!-- Grid row -->
-				</div>
-				<!-- Footer Links -->
-				<br>
-				<br>
-				<!-- Copyright -->
-				<div class="contenedor text-center text-md-left" style="">
-					<ul>
-						<a href="#!"><i class="fa fa-map-marker"></i> Bogotá D.C.</a>
-						<a href="#!"><i class="fa fa-mobile"></i>  (+57 1) 321 200 8765  </a>
-						<a href="#!"><i class="fa fa-envelope"></i> cumpliendosuenos2021@outlook.com</a>
-						<a href="#!">Términos y Condiciones</a>
-						<a href="#!">Tratamiento de datos</a>
-					</ul>
-					<ul>
-						<!-- Copyright -->
-						<div class="footer-copyright text-center py-3" style="color:#fff">© 2020 Copyright:</div>
-					</ul>
-				</div>
-				
+			        <!-- Grid column -->
+			
+			        <!-- Grid column -->
+			        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+			          <!-- Links -->
+			          <h6 class="text-uppercase fw-bold mb-4">
+			            Links
+			          </h6>
+			          <p>
+			            <a href="#!" class="text-reset">Términos y Condiciones</a>
+			          </p>
+			          <p>
+			            <a href="#!" class="text-reset">Tratamiento de datos</a>
+			          </p>
+			        </div>
+			        <!-- Grid column -->
+			
+			        <!-- Grid column -->
+			        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+			          <!-- Links -->
+			          <h6 class="text-uppercase fw-bold mb-4">
+			            Contáctanos
+			          </h6>
+			          <p><i class="fa fa-map-marker me-3"></i> Bogotá D.C.</p>
+			          <p>
+			            <i class="fa fa-envelope me-3"></i>
+			            cumpliendosueno2021@outlook.com
+			          </p>
+			          <p><i class="fa fa-phone me-3"></i> (+57 1) 321 200 8765</p>
+			        </div>
+			        <!-- Grid column -->
+			      </div>
+			      <!-- Grid row -->
+			    </div>
+			  </section>
+			  <!-- Section: Links  -->
+			  
+			  <!-- Section: Social media -->
+			  <section
+			    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+			  >
+			    <!-- Left -->
+			    <div class="me-5 d-none d-lg-block">
+			      <span>Síguenos por nuestras redes sociales</span>
+			    </div>
+			    <!-- Left -->
+			
+			    <!-- Right -->
+			    <div id="socialMedia">
+			      <a href="https://www.facebook.com/CumpliendoSue%C3%B1os-110258968145255/about/?ref=page_internal" class="me-4 text-reset">
+			        <i class="fa fa-facebook-square"></i>
+			      </a>
+			      <a href="https://twitter.com/Cumpliendosue21" class="me-4 text-reset">
+			        <i class="fa fa-twitter"></i>
+			      </a>
+			      <a href="https://www.youtube.com/channel/UCrxKZJpLjvCDGGn7kfKzAFg" class="me-4 text-reset">
+			        <i class="fa fa-youtube"></i>
+			      </a>
+			    </div>
+			    <!-- Right -->
+			  </section>
+			  <!-- Section: Social media -->
+			  
+			  <!-- Copyright -->
+			  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+			    © 2021 Copyright:
+			    <a class="text-reset fw-bold" href="https://mdbootstrap.com/"></a>
+			  </div>
+			  <!-- Copyright -->
 			</footer>
 			<!-- Footer -->
-		</div>
-		<div style="height:150vh; background-image: url('img/bckgr.svg'); background-repeat: no-repeat;">
+			
 		</div>
 	</article>
 </body>

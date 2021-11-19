@@ -16,7 +16,7 @@ body {
   background-image: url(../img/bg2.svg);
 
   /* Full height */
-  height: 70vh; 
+  height: 100vh; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
